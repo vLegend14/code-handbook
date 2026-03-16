@@ -28,8 +28,7 @@ Cada archivo está pensado como una **pequeña lección ejecutable**, donde se e
 │   ├── 07_classes.py
 │   ├── 08_comprehensions.py
 │   ├── 09_generators.py
-│   ├── 10_decorators.py
-│   └── bucles.py
+│   └── 10_decorators.py
 ├── README.md
 └── typescript
 ```
