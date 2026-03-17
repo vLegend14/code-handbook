@@ -94,8 +94,8 @@ saludar()
 def saludar(nombre):
     print(f"Hola, {nombre}")
 
-saludar("Ana")
-saludar("Luis")
+saludar("José")
+saludar("Gonzalo")
 """)
 
     salida()
@@ -103,9 +103,9 @@ saludar("Luis")
     def saludar(nombre):
         print(f"Hola, {nombre}")
 
-    saludar("Ana")
+    saludar("José")
     time.sleep(0.3)
-    saludar("Luis")
+    saludar("Gonzalo")
 
     pausa()
     limpiar()
@@ -127,8 +127,8 @@ saludar("Luis")
 def presentar(nombre, edad):
     print(f"{nombre} tiene {edad} años")
 
-presentar("Ana", 20)
-presentar("Luis", 25)
+presentar("José", 20)
+presentar("Gonzalo", 25)
 """)
 
     salida()
@@ -136,9 +136,9 @@ presentar("Luis", 25)
     def presentar(nombre, edad):
         print(f"{nombre} tiene {edad} años")
 
-    presentar("Ana", 20)
+    presentar("José", 20)
     time.sleep(0.3)
-    presentar("Luis", 25)
+    presentar("Gonzalo", 25)
 
     pausa()
     limpiar()
@@ -184,8 +184,8 @@ print(resultado)
 def saludar(nombre, mensaje="Hola"):
     print(f"{mensaje}, {nombre}")
 
-saludar("Ana")
-saludar("Luis", "Buenos días")
+saludar("José")
+saludar("Gonzalo", "Buenos días")
 """)
 
     salida()
@@ -193,9 +193,9 @@ saludar("Luis", "Buenos días")
     def saludar(nombre, mensaje="Hola"):
         print(f"{mensaje}, {nombre}")
 
-    saludar("Ana")
+    saludar("José")
     time.sleep(0.3)
-    saludar("Luis", "Buenos días")
+    saludar("Gonzalo", "Buenos días")
 
     pausa()
     limpiar()
