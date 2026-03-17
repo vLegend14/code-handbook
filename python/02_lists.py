@@ -56,6 +56,8 @@ try:
 
     codigo("""
 frutas = ["manzana", "banana", "pera"]
+
+print(frutas)
 """)
 
     salida()
@@ -178,6 +180,7 @@ Recorre la lista usando un bucle for.
 """)
 
     pausa()
+    limpiar()
 
     titulo("FIN DE LA LECCIÓN")
 

@@ -62,6 +62,9 @@ try:
     codigo("""
 nombre = "Ana"
 edad = 20
+
+print(nombre)
+print(edad)
 """)
 
     salida()
@@ -104,6 +107,11 @@ numero = 10
 precio = 9.99
 texto = "Hola"
 activo = True
+
+print(numero)
+print(precio)
+print(texto)
+print(activo)
 """)
 
     salida()
@@ -208,6 +216,7 @@ Imprime una frase usando ambas variables.
 """)
 
     pausa()
+    limpiar()
 
     titulo("FIN DE LA LECCIÓN")
 

@@ -300,6 +300,7 @@ Escribe un comentario en el código.
 """)
 
     pausa()
+    limpiar()
 
     titulo("FIN DE LA LECCIÓN")
 

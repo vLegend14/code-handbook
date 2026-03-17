@@ -85,8 +85,9 @@ for elemento in coleccion:
 """)
 
     pausa()
+    limpiar()
 
-    seccion("EJEMPLO 1: contar números")
+    seccion("EJEMPLO: contar números")
 
     codigo("""
 for i in range(5):
@@ -100,6 +101,7 @@ for i in range(5):
         time.sleep(0.3)
 
     pausa()
+    limpiar()
 
     seccion("EXPLICACIÓN")
 
@@ -119,7 +121,7 @@ for i in range(5):
 
     pausa()
 
-    seccion("EJEMPLO 2")
+    seccion("EJEMPLO")
 
     codigo("""
 frutas = ["manzana", "banana", "pera", "naranja"]
@@ -135,6 +137,7 @@ for fruta in frutas:
         time.sleep(0.3)
 
     pausa()
+    limpiar()
 
     seccion("EXPLICACIÓN")
 
@@ -293,7 +296,7 @@ notas   = [6.5, 3.0, 5.8]
 
 for nombre, nota in zip(nombres, notas):
     estado = "✔ Aprobado" if nota >= 4 else "✘ Reprobado"
-    print(f"{nombre:<8} → {nota}  {estado}")
+    print(f"{nombre} → {nota}  {estado}")
 """)
 
     salida()
@@ -305,7 +308,7 @@ for nombre, nota in zip(nombres, notas):
 
         estado = "✔ Aprobado" if nota >= 4 else "✘ Reprobado"
 
-        print(f"{nombre:<8} → {nota}  {estado}")
+        print(f"{nombre} → {nota}  {estado}")
         time.sleep(0.3)
 
     pausa()
@@ -323,6 +326,7 @@ while condición:
 """)
 
     pausa()
+    limpiar()
 
     seccion("Ejemplo contador")
     codigo("""
@@ -420,6 +424,7 @@ for i in range(5):
     """)
 
     pausa()
+    limpiar()
 
     titulo("FIN DE LA LECCIÓN")
 
