@@ -60,7 +60,7 @@ try:
     print("En Python una variable se crea usando '='\n")
 
     codigo("""
-nombre = "Ana"
+nombre = "José"
 edad = 20
 
 print(nombre)
@@ -69,7 +69,7 @@ print(edad)
 
     salida()
 
-    nombre = "Ana"
+    nombre = "Jose"
     edad = 20
 
     print(nombre)
@@ -182,7 +182,7 @@ print(contador)
     print("Podemos insertar variables dentro de texto usando f-strings.\n")
 
     codigo("""
-nombre = "Luis"
+nombre = "Gonzalo"
 edad = 25
 
 print(f"{nombre} tiene {edad} años")
@@ -190,7 +190,7 @@ print(f"{nombre} tiene {edad} años")
 
     salida()
 
-    nombre = "Luis"
+    nombre = "Gonzalo"
     edad = 25
 
     print(f"{nombre} tiene {edad} años")
