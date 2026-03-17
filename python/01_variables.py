@@ -69,7 +69,7 @@ print(edad)
 
     salida()
 
-    nombre = "Jose"
+    nombre = "José"
     edad = 20
 
     print(nombre)
