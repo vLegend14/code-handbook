@@ -114,7 +114,7 @@ for i in range(5):
 
     titulo("RECORRER LISTAS")
 
-    frutas = ["manzana", "banana", "pera", "naranja"]
+    frutas = ["manzana", "plátano", "pera", "naranja"]
 
     print("Lista de frutas:")
     print(frutas)
@@ -124,7 +124,7 @@ for i in range(5):
     seccion("EJEMPLO")
 
     codigo("""
-frutas = ["manzana", "banana", "pera", "naranja"]
+frutas = ["manzana", "plátano", "pera", "naranja"]
 
 for fruta in frutas:
     print("fruta:", fruta)
@@ -222,7 +222,7 @@ Devuelve pares:
     seccion("enumerate() — índice automático")
 
     codigo("""
-idiomas = ["Español", "Ingles", "Japones"]
+idiomas = ["Español", "Inglés", "Japonés"]
 
 for i, lang in enumerate(idiomas):
     print(i, lang)
@@ -230,7 +230,7 @@ for i, lang in enumerate(idiomas):
 
     salida()
 
-    idiomas = ["Español", "Ingles", "Japones"]
+    idiomas = ["Español", "Inglés", "Japonés"]
 
     for i, lang in enumerate(idiomas):
         print(i, lang)
@@ -242,7 +242,7 @@ for i, lang in enumerate(idiomas):
     seccion("enumerate() — empezando desde 1")
 
     codigo("""
-idiomas = ["Español", "Ingles", "Japones"]
+idiomas = ["Español", "Inglés", "Japonés"]
 
 for i, lang in enumerate(idiomas, start=1):
     print(i, lang)
@@ -273,13 +273,13 @@ de cada colección en la misma posición.
 
 Ejemplos:
 
-nombres = ["Ana", "Luis", "María"]
+nombres = ["José", "Gonzalo", "Tomás"]
 edades  = [20, 25, 30]
 
 zip(nombres, edades)
-→ ("Ana", 20)
-→ ("Luis", 25)
-→ ("María", 30)
+→ (José", 20)
+→ (Gonzalo", 25)
+→ (Tomás", 30)
 
 Si las colecciones tienen distinto tamaño,
 zip() se detiene cuando termina la más corta.
@@ -291,7 +291,7 @@ zip() se detiene cuando termina la más corta.
     seccion("zip() — iterar listas en paralelo")
 
     codigo("""
-nombres = ["Ana", "Luis", "María"]
+nombres = ["José", "Gonzalo", "Tomás"]
 notas   = [6.5, 3.0, 5.8]
 
 for nombre, nota in zip(nombres, notas):
@@ -301,7 +301,7 @@ for nombre, nota in zip(nombres, notas):
 
     salida()
 
-    nombres = ["Ana", "Luis", "María"]
+    nombres = ["José", "Gonzalo", "Tomás"]
     notas = [6.5, 3.0, 5.8]
 
     for nombre, nota in zip(nombres, notas):
