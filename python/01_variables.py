@@ -93,7 +93,8 @@ Los tipos más comunes en Python son:
 
 int     → números enteros
 float   → números con decimales
-str     → texto
+char    → caracter
+str     → cadena de caracteres / texto
 bool    → verdadero o falso
 """)
 
