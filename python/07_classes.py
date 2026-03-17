@@ -66,8 +66,8 @@ Ejemplo de la vida real:
 │  Atributos  │  nombre, edad, ciudad                │
 │  Métodos    │  saludar(), caminar(), hablar()      │
 ├─────────────┼──────────────────────────────────────┤
-│  Objeto 1   │  Ana, 20, Santiago                   │
-│  Objeto 2   │  Luis, 25, Viña del mar              │
+│  Objeto 1   │  José, 20, Santiago                    │
+│  Objeto 2   │  gonzalo, 25, Viña del mar                │
 └─────────────┴──────────────────────────────────────┘
 """)
 
@@ -99,7 +99,7 @@ class Persona:
         self.nombre = nombre
         self.edad = edad
 
-p = Persona("Ana", 20)
+p = Persona("José", 20)
 
 print(p.nombre)
 print(p.edad)
@@ -112,7 +112,7 @@ print(p.edad)
             self.nombre = nombre
             self.edad = edad
 
-    p = Persona("Ana", 20)
+    p = Persona("José", 20)
 
     print(p.nombre)
     time.sleep(0.3)
@@ -143,8 +143,8 @@ class Persona:
     def saludar(self):
         print(f"Hola, soy {self.nombre}")
 
-p1 = Persona("Ana", 20)
-p2 = Persona("Luis", 25)
+p1 = Persona("José", 20)
+p2 = Persona("Gonzalo", 25)
 
 p1.saludar()
 p2.saludar()
@@ -160,8 +160,8 @@ p2.saludar()
         def saludar(self):
             print(f"Hola, soy {self.nombre}")
 
-    p1 = Persona("Ana", 20)
-    p2 = Persona("Luis", 25)
+    p1 = Persona("José", 20)
+    p2 = Persona("Gonzalo", 25)
 
     p1.saludar()
     time.sleep(0.3)
@@ -180,7 +180,7 @@ class Persona:
         self.nombre = nombre
         self.edad = edad
 
-p = Persona("Ana", 20)
+p = Persona("José", 20)
 print(p.edad)
 
 p.edad = 21
@@ -194,7 +194,7 @@ print(p.edad)
             self.nombre = nombre
             self.edad = edad
 
-    p = Persona("Ana", 20)
+    p = Persona("José", 20)
     print(p.edad)
 
     time.sleep(0.3)
@@ -283,7 +283,7 @@ class Persona:
     def __str__(self):
         return f"Persona({self.nombre}, {self.edad})"
 
-p = Persona("Ana", 20)
+p = Persona("José", 20)
 print(p)
 """)
 
@@ -297,7 +297,7 @@ print(p)
         def __str__(self):
             return f"Persona({self.nombre}, {self.edad})"
 
-    p = Persona("Ana", 20)
+    p = Persona("José", 20)
     print(p)
 
     pausa()
