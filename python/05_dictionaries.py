@@ -60,7 +60,7 @@ try:
 
     codigo("""
 persona = {
-    "nombre": "Ana",
+    "nombre": "José",
     "edad": 20,
     "ciudad": "Santiago"
 }
@@ -71,7 +71,7 @@ print(persona)
     salida()
 
     persona = {
-        "nombre": "Ana",
+        "nombre": "José",
         "edad": 20,
         "ciudad": "Santiago"
     }
@@ -97,7 +97,7 @@ print(persona)
 
     codigo("""
 persona = {
-    "nombre": "Ana",
+    "nombre": "José",
     "edad": 20
 }
 
@@ -108,7 +108,7 @@ print(persona["edad"])
     salida()
 
     persona = {
-        "nombre": "Ana",
+        "nombre": "José",
         "edad": 20
     }
 
@@ -126,7 +126,7 @@ print(persona["edad"])
 
     codigo("""
 persona = {
-    "nombre": "Ana",
+    "nombre": "José",
     "edad": 20
 }
 
@@ -137,7 +137,7 @@ print(persona.get("telefono", "sin datos"))
 
     salida()
 
-    persona = {"nombre": "Ana", "edad": 20}
+    persona = {"nombre": "José", "edad": 20}
 
     print(persona.get("nombre"))
     time.sleep(0.3)
@@ -162,12 +162,12 @@ print(persona.get("telefono", "sin datos"))
 
     codigo("""
 persona = {
-    "nombre": "Ana",
+    "nombre": "José",
     "edad": 20
 }
 
 persona["edad"] = 22
-persona["nombre"] = "María"
+persona["nombre"] = "Ignacio"
 
 print(persona)
 """)
@@ -175,12 +175,12 @@ print(persona)
     salida()
 
     persona = {
-        "nombre": "Ana",
+        "nombre": "José",
         "edad": 20
     }
 
     persona["edad"] = 22
-    persona["nombre"] = "María"
+    persona["nombre"] = "Ignacio"
 
     print(persona)
 
@@ -193,7 +193,7 @@ print(persona)
 
     codigo("""
 persona = {
-    "nombre": "Ana",
+    "nombre": "José",
     "edad": 20,
     "ciudad": "Santiago"
 }
@@ -206,7 +206,7 @@ print(persona)
     salida()
 
     persona = {
-        "nombre": "Ana",
+        "nombre": "José",
         "edad": 20,
         "ciudad": "Santiago"
     }
@@ -237,7 +237,7 @@ print(persona)
 
     codigo("""
 persona = {
-    "nombre": "Ana",
+    "nombre": "José",
     "edad": 20,
     "ciudad": "Santiago"
 }
@@ -248,7 +248,7 @@ for clave, valor in persona.items():
 
     salida()
 
-    persona = {"nombre": "Ana", "edad": 20, "ciudad": "Santiago"}
+    persona = {"nombre": "José", "edad": 20, "ciudad": "Santiago"}
 
     for clave, valor in persona.items():
         print(f"{clave}: {valor}")
@@ -263,7 +263,7 @@ for clave, valor in persona.items():
 
     codigo("""
 persona = {
-    "nombre": "Ana",
+    "nombre": "José",
     "edad": 20
 }
 
@@ -276,7 +276,7 @@ if "telefono" not in persona:
 
     salida()
 
-    persona = {"nombre": "Ana", "edad": 20}
+    persona = {"nombre": "José", "edad": 20}
 
     if "nombre" in persona:
         print("La clave existe")
