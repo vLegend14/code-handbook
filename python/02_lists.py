@@ -55,14 +55,14 @@ try:
     print("Una lista se crea usando corchetes [].\n")
 
     codigo("""
-frutas = ["manzana", "banana", "pera"]
+frutas = ["manzana", "plátano", "pera"]
 
 print(frutas)
 """)
 
     salida()
 
-    frutas = ["manzana", "banana", "pera"]
+    frutas = ["manzana", "plátano", "pera"]
 
     print(frutas)
 
@@ -84,7 +84,7 @@ print(frutas)
     print("Los índices comienzan en 0.\n")
 
     codigo("""
-frutas = ["manzana", "banana", "pera"]
+frutas = ["manzana", "plátano", "pera"]
 
 print(frutas[0])
 print(frutas[1])
@@ -92,7 +92,7 @@ print(frutas[1])
 
     salida()
 
-    frutas = ["manzana", "banana", "pera"]
+    frutas = ["manzana", "plátano", "pera"]
 
     print(frutas[0])
     print(frutas[1])
@@ -105,7 +105,7 @@ print(frutas[1])
     print("Podemos agregar elementos con append().\n")
 
     codigo("""
-frutas = ["manzana", "banana"]
+frutas = ["manzana", "plátano"]
 
 frutas.append("naranja")
 
@@ -114,7 +114,7 @@ print(frutas)
 
     salida()
 
-    frutas = ["manzana", "banana"]
+    frutas = ["manzana", "plátano"]
 
     frutas.append("naranja")
 
@@ -128,7 +128,7 @@ print(frutas)
     print("Las listas se recorren comúnmente usando for.\n")
 
     codigo("""
-frutas = ["manzana", "banana", "pera"]
+frutas = ["manzana", "plátano", "pera"]
 
 for fruta in frutas:
     print(fruta)
@@ -136,7 +136,7 @@ for fruta in frutas:
 
     salida()
 
-    frutas = ["manzana", "banana", "pera"]
+    frutas = ["manzana", "plátano", "pera"]
 
     for fruta in frutas:
         print(fruta)
@@ -150,14 +150,14 @@ for fruta in frutas:
     print("Podemos saber cuántos elementos tiene una lista.\n")
 
     codigo("""
-frutas = ["manzana", "banana", "pera"]
+frutas = ["manzana", "plátano", "pera"]
 
 print(len(frutas))
 """)
 
     salida()
 
-    frutas = ["manzana", "banana", "pera"]
+    frutas = ["manzana", "plátano", "pera"]
 
     print(len(frutas))
 
