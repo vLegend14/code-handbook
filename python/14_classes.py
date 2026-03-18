@@ -125,7 +125,7 @@ print(p.edad)
 
     print("self representa al propio objeto.")
     print("self.nombre guarda el nombre dentro del objeto.")
-    print("Al crear Persona('Ana', 20) se llama __init__ automáticamente.")
+    print("Al crear Persona('José', 20) se llama __init__ automáticamente.")
 
     pausa()
     limpiar()

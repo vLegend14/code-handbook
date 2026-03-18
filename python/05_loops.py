@@ -273,13 +273,13 @@ de cada colección en la misma posición.
 
 Ejemplos:
 
-nombres = ["José", "Gonzalo", "Tomás"]
+nombres = ["José", "Gonzalo", "Ignacio"]
 edades  = [20, 25, 30]
 
 zip(nombres, edades)
 → (José", 20)
 → (Gonzalo", 25)
-→ (Tomás", 30)
+→ (Ignacio", 30)
 
 Si las colecciones tienen distinto tamaño,
 zip() se detiene cuando termina la más corta.
@@ -291,7 +291,7 @@ zip() se detiene cuando termina la más corta.
     seccion("zip() — iterar listas en paralelo")
 
     codigo("""
-nombres = ["José", "Gonzalo", "Tomás"]
+nombres = ["José", "Gonzalo", "Ignacio"]
 notas   = [6.5, 3.0, 5.8]
 
 for nombre, nota in zip(nombres, notas):
@@ -301,7 +301,7 @@ for nombre, nota in zip(nombres, notas):
 
     salida()
 
-    nombres = ["José", "Gonzalo", "Tomás"]
+    nombres = ["José", "Gonzalo", "Ignacio"]
     notas = [6.5, 3.0, 5.8]
 
     for nombre, nota in zip(nombres, notas):
