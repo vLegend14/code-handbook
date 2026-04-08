@@ -1,0 +1,19 @@
+{
+  "name": "code-handbook-server",
+  "version": "1.0.0",
+  "description": "WebSocket backend for code-handbook",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-pty": "^1.0.0",
+    "ws": "^8.14.2"
+  }
+}
