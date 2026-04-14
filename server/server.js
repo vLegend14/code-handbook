@@ -288,7 +288,7 @@ app.post("/admin/login", (req, res) => {
     res.cookie("auth_token", ADMIN_KEY, { maxAge: 24 * 60 * 60 * 1000, httpOnly: true });
     res.redirect("/admin");
   } else {
-    res.send("<script>alert('Acceso Denegado. La llave es incorrecta.'); window.location.href='/admin';</script>");
+    res.send("<script>alert('Acceso Denegado'); window.location.href='/admin';</script>");
   }
 });
 
