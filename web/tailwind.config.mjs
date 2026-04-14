@@ -4,14 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        base:    "#0a0a0c",
-        surface: "#121216",
-        raised:  "#1b1b22",
-        border:  "#2d2d3a",
-        accent:  "#33509b",
-        green:   "#689d8a",
-        muted:   "#9494a3", 
-        faint:   "#4a4a58",
+        base:    "#0a0c14",
+        surface: "#121626",
+        raised:  "#1a1f35",
+        border:  "#2c3353",
+        accent:  "#4f7cff",
+        green:   "#3ddc97",
+        muted:   "#b0b7d1",
+        faint:   "#6c7393",
       },
       fontFamily: {
         mono: ["'Fira Code'", "'Cascadia Code'", "'SF Mono'", "monospace"],
