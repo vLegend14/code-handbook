@@ -93,7 +93,8 @@ const server = http.createServer(app);
 const allowedOrigins = [
   "https://vlegend14.github.io",
   "http://localhost:4321",
-  "http://localhost:3000"
+  "http://localhost:3000",
+  "https://code-handbook-production.up.railway.app/admin"
 ];
 
 app.use(cors({
@@ -124,10 +125,20 @@ app.use((req, res, next) => {
 
 // ─── Endpoints ────────────────────────────────────────────────
 
-app.get("/health", (_, res) => res.json({ ok: true, active: activeProcesses }));
+// Endpoint de Salud (Protegido)
+app.get("/health", (req, res) => {
+  if (req.cookies.auth_token !== ADMIN_KEY && req.query.key !== ADMIN_KEY) {
+    return res.status(403).json({ error: "[ ACCESO DENEGADO ] - Estructura sellada." });
+  }
+  res.json({ ok: true, active: activeProcesses });
+});
 
-// Endpoint de Debug
+// Endpoint de Debug (Protegido)
 app.get("/debug-env", (req, res) => {
+  if (req.cookies.auth_token !== ADMIN_KEY && req.query.key !== ADMIN_KEY) {
+    return res.status(403).json({ error: "[ ACCESO DENEGADO ] - Estructura sellada." });
+  }
+  
   try {
     const python = execSync("python3 --version").toString();
     const gpp = execSync("g++ --version").toString();
