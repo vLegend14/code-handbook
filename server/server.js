@@ -94,7 +94,7 @@ const allowedOrigins = [
   "https://vlegend14.github.io",
   "http://localhost:4321",
   "http://localhost:3000",
-  "https://code-handbook-production.up.railway.app/admin"
+  "https://code-handbook-production.up.railway.app/"
 ];
 
 app.use(cors({
